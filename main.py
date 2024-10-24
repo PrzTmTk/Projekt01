@@ -1,2 +1,2 @@
 def ptest01():
-    print("test")
+    return "test"

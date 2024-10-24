@@ -1,5 +1,9 @@
 *.conf
+
 __pycache__/
 .pytest_cache/
 .vscode/
+chrome-win64/
+chromedriver-win64/
+
 !.gitignore

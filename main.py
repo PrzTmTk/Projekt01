@@ -1,3 +1,2 @@
-print("dziala !!!")
-print("nowy kod")
-print("test")
+def ptest01():
+    print("test")

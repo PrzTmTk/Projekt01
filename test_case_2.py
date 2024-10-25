@@ -13,7 +13,7 @@ class GoogleSearchTest(unittest.TestCase):
         options = webdriver.ChromeOptions()
         self.driver = webdriver.Chrome(service=service, options=options)
         self.driver.get("https://www.google.com")
-        time.sleep(10)
+        time.sleep(3)
 
     def test_search_in_google(self):
         driver = self.driver
